@@ -16,7 +16,7 @@
     $(".gbmot").attr("style", "display:none"); 
     $(".gbmot").each((_, x) => ankiCard[x.id] = x.innerText);
     $("body").prepend(`<img id="loader" src=${loaderGif} width="200" height="200"/>`);
-    cssFile(`/bin/vav/tailwind.min.css`);
+    jsFile(`https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4`);
     MathJax = {loader: {load: ['input/asciimath', 'output/chtml']}};
     jsFile(`https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js`);
     cssFile(`/bin/vav/global.css`);
