@@ -1,6 +1,6 @@
 (function() {
     var head = document.getElementsByTagName("head")[0];
-    var loaderGif = "/bin/vav/loading.cat-and-dog.gif";
+    var loaderGif = "bin/vav/loading.cat-and-dog.gif";
     function cssFile(src) {
         var css = document.createElement("link");
         css.setAttribute("rel", "stylesheet");
