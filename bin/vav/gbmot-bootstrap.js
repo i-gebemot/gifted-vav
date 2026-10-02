@@ -19,7 +19,7 @@
     jsFile(`https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4`);
     MathJax = {loader: {load: ['input/asciimath', 'output/chtml']}};
     jsFile(`https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js`);
-    cssFile(`/bin/vav/global.css`);
-    cssFile(`/bin/vav/build/bundle.css`);
-    jsFile(`/bin/vav/build/bundle.js`);
+    cssFile(`bin/vav/global.css`);
+    cssFile(`bin/vav/build/bundle.css`);
+    jsFile(`bin/vav/build/bundle.js`);
 })()
