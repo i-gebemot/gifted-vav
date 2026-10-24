@@ -22,4 +22,7 @@
     cssFile(`bin/vav/global.css`);
     cssFile(`bin/vav/build/bundle.css`);
     jsFile(`bin/vav/build/bundle.js`);
+    document.addEventListener("click", () => {
+        window.parent.postMessage({ type: "card-click", cardId: ankiCard.id }, "*");
+    }, true);
 })()
